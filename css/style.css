@@ -54,6 +54,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
     background-color: grey;
     width: 100vw;
     padding: 20px;
