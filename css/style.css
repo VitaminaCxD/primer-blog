@@ -3,80 +3,99 @@ html {
 }
 
 body {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(240, 240, 240);
-    color: rgb(25,25,25);
+    background-color: #E9ECEF;
     font-family: 'Roboto Mono', monospace;
+    color: #161A1D;
     margin: 0;
 }
 
 header {
-    display: inline-block;
-    background-color: grey;
-    padding: 25px;
-    width: 100vw;
+    background-color: #212529;
+    padding: 40px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2em;
+    display: inline-block;
+    color: #F5F3F4;
+    font-size: 2.5em;
+    letter-spacing: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .publicacion {
-    width: 90vw;
+    width: 30%;
     text-align: center;
-    margin-top: 50px;
-    border: 2px solid lightgray;
-    border-radius: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+    background-color: #ffffff;
 }
 
-.publicacion h2 {
-    font-size: 1.5em;
+.titulo-autor h2 {
+    font-size: 1.7em;
 }
 
-.publicacion #publicado {
+.titulo-autor p {
+    color: #E5383B;
     font-size: 1.1em;
-    color: orange;
 }
 
-.publicacion img {
-    width: 100%;
+.img-publicacion img{
+    max-width: 100%;
+    max-height: 30%;
 }
 
-.publicacion p {
-    font-size: 1.2em;
+.descripcion p {
+    font-size: 1.3em;
 }
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
-    background-color: grey;
-    width: 100vw;
-    padding: 20px;
+    background-color: #212529;
+    color: #F5F3F4;
+    padding: 40px;
     margin-top: 50px;
 }
 
 footer p {
-    padding: 15px 0px;
+    letter-spacing: 3px;
 }
 
 .enlaces a {
-    margin: 5px;
-    padding: 15px 0px;
     text-decoration: none;
-    color: rgb(25,25,25);
-}
-
-.enlaces a:active {
-    color: orange;
+    color: #F5F3F4;
+    margin: 0px 5px;
 }
 
 .enlaces a:hover {
     text-decoration: underline;
 }
 
+.enlaces a:active {
+    text-decoration: none;
+}
+
+#contacto {
+    color: #E5383B;
+}
+
+#contacto:hover {
+    color: #F5F3F4;
+    background-color: rgb(186, 24, 27, 0.5);
+    border-radius: 5px;
+    padding: 5px 0px
+}
