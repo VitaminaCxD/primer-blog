@@ -50,3 +50,17 @@ header h1 {
 .publicacion p {
     font-size: 1.2em;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer a {
+    margin: 10px;
+}
