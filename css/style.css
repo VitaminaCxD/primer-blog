@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2em;
+    color: rgb(25,25,25);
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicacion {
+    width: 70vw;
+    text-align: center;
+    color: rgb(25,25,25);
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.publicacion h2 {
+    font-size: 1.5em;
+}
+
+.publicacion #publicado {
+    font-size: 1.1em;
+    color: orange;
+}
+
+.publicacion img {
+    width: 100%;
+    height: 0%;
+}
+
+.publicacion p {
+    font-size: 1.2em;
+}
